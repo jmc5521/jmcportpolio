@@ -1,0 +1,67 @@
+  *{margin: 0; padding: 0;}
+ol,ul{list-style:none;}
+table{border-collapse: collapse;}
+a {text-decoration: none; color: #000;}
+
+
+body{font-family: 'Noto Sans KR',sans-serif;font-size: 16px; color: #000; line-height: 26px;}
+    
+    #wrap {overflow: hidden;}
+    
+    #header {width: 1200px; margin: 0 auto}
+    #header > h1 {width: 1200px ; margin: 0 auto ; }
+    #header > ul {position: relative; top: -20px; left: 290px}
+    #header ul li{float: left;}
+    #header ul li a{padding: 40px}
+    
+    
+    #header > ul li a:hover #header li a {color: darkred}
+    
+    
+    #header:after {display: block; clear: both; content: ""}
+    
+    
+    #main_visual {min-width: 1200px; background: url('../project/photo/main_banner.png'); height: 643px;margin-top: 40px}
+    
+    
+    #contents {width: 1200px; margin: 0 auto;}
+    #contents > h2 {width: 1200px; margin:0 auto; text-align: center;padding-top: 160px}
+    #contents ul li {width: 1200px margin:0 auto;float: left; width:calc(100%/5);padding-left: 120px; margin-top: 50px}
+    #contents ul li  {text-align: center;}
+    #contents:after {display: block; content: ""; clear: both;}
+    
+    
+    #sub_banner {background: url('../project/photo/person-1281634_1280.png')no-repeat; margin-top: 180px; height: 705px}
+    #sub_banner > h2 , p {color: #fff;text-align: center;position: relative; top: 440px}
+    #sub_banner > h2 {font-size: 47px}
+    #sub_banner > p  {font-size: 16px;line-height: 14px;padding-top: 20px}
+    
+    
+    
+    #best_item {min-width:  width: 1200px; margin-top: 150px;}
+    #best_item:after{display: block;clear: both;content: "";}
+   
+    #best_item h5 {width: 1200px ; margin: 0 auto;text-align: center}
+    #best_item .best_item_2 {width: 1200px; margin: 0 470px;}
+    #best_item .best_item_2 > h2 {float: left; padding-right: 70px}
+    #best_item .best_item_3 {float: left; padding: }
+    
+    #best_item .best_item_3 h2{padding-bottom: 40px ;font-size: 45px}
+    #best_item .best_item_3 h3{padding-bottom: 40px ;font-size: 35px;color: #707070;}
+    #best_item .best_item_3 h4{padding-bottom: 160px; font-size: 35px}
+    #best_item .best_item_3 h6{font-size: 25px}
+    
+    
+    #event {width: 1200px; margin: 0 auto;margin-top: 180px}
+    #event > h3 {width: 1200px; margin: 0 auto;text-align: center;padding-bottom: 50px; font-size: 35px}
+    
+    
+    #hoogi {width: 1200px; margin: 0 auto;}
+    #hoogi:after{content: "";clear: both; display: block;}
+    #hoogi h2 {text-align: center;padding-top: 160px;padding-bottom: 45px; font-size: 35px}
+    #hoogi ul li {width: calc(100%/4);float: left; text-align: center;padding-bottom: 100px} 
+    #hoogi ul li 
+    
+    
+    #footer {width: 1200px; margin: 0 auto; }
+    #footer_in address{width: 1200px ; margin: 0 auto; text-align: center;padding-top: 70px}
