@@ -1,0 +1,73 @@
+    *{margin: 0; padding: 0;}
+ol,ul{list-style:none;}
+table{border-collapse: collapse;}
+a {text-decoration: none; color: #000;}
+
+        
+                
+        
+
+body{font-family: 'Noto Sans KR',sans-serif;font-size: 16px; color: #000; line-height: 26px;}
+    
+    #wrap {overflow: hidden; width: 1920px;}
+        #header {width: 1200px; margin: 0 auto}
+        #header ul li {float: left; padding-left: 20px;padding-top: 100px}
+        #header h1 {padding-left: 380px;}
+        #header h2 {padding-left: 280px;}
+        #header h3 {padding-left: 20px;}
+        
+        
+        #gnb {min-width: 1920px; background: #dc5b9a; height: 93px; margin-top: 30px}
+        
+        #gnb .gnb_in {width: 1280px ; margin: 0 auto;}
+        #gnb .gnb_in ul li {float: left; padding: 30px 80px; font-size: 28px;}
+        #gnb .gnb_in ul li a {color: #fff}
+        
+        #main_banner {height: 690px;}
+        
+        #br_menu {min-width: 1920px; background: #e2e2e2; height: 712px;}
+        
+        #br_menu .br_menu_in {width: 1330px; margin: 0 auto}
+        .br_menu_in:after {display: block; content: ""; clear: both; }
+        .br_menu_in > h1 {font-size: 33px;text-align: center;padding-top: 60px; padding-bottom: 140px}  
+        
+        
+        .br_menu_in ul li {padding: 29.5px}
+        .br_menu_in ul li  {float: left;text-align: center;}
+        .br_menu_in ul li a {font-size: 27px}
+        
+        #delivery {width: 1200px; margin: 0 auto}
+        #delivery:after {display: block; clear: both; content: "";}
+        #delivery .delivery_in h1{text-align: center;padding-top: 50px; padding-bottom: 50px}
+        .delivery_in li {width: calc(100%/5); float: left;}
+      
+        
+        #sta {min-width: 1920px; background: #e2e2e2; height: 750px}
+        #sta:after {display: block; content: ""; clear: both;}
+        #sta .sta_in {width: 1200px ; margin: 0 auto}
+        #sta .sta_in li {float: left;padding: 232px; margin-top: 120px}
+        #sta .sta_in li:nth-child(1) {background: url('../img/brmarket.png')no-repeat;height: 50px}
+        #sta .sta_in li:nth-child(2) {background: url('../img/brtaste.png')no-repeat;height: 50px}
+        #sta .sta_in a {color: #fff;font-size: 22px;text-align: center}
+        
+        
+        
+        
+        
+        #sns {min-width:1920px; margin: 0 auto;height: 700px; background: #d9d9d9 ; }
+        #sns:after {clear: both; display: block; content: "";}
+        #sns .sns_in {width: 1200px; margin: 0 auto}
+        .sns_in h1 {text-align: center; padding-top: 50px}
+        .sns_in li {float: left;padding: 33px}
+        .sns_in .up {margin: 0 400px;}
+        .sns_in .up:after {display: block; content: ""; clear: both}
+        
+        
+        #footer {min-width: 1920px; margin: 0 auto; height: 330px}
+        #footer .footer_in {width: 1200px; margin: 0 auto;}
+        #footer .footer_in .ft_up li  {float: left; padding: 47px}
+        #footer .footer_in .ft_down li  {float: left;padding-left: 60px}
+        #footer .footer_in h2 {text-align: center;}
+        #footer .footer_in h2:after{clear: both; display: block; content: "";}
+        .ft_down:after{clear: both; display: block; content: "";}
+        #footer h3 {text-align: center;padding-top: 20px}
