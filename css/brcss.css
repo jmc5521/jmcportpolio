@@ -46,8 +46,8 @@ body{font-family: 'Noto Sans KR',sans-serif;font-size: 16px; color: #000; line-h
         #sta:after {display: block; content: ""; clear: both;}
         #sta .sta_in {width: 1200px ; margin: 0 auto}
         #sta .sta_in li {float: left;padding: 232px; margin-top: 120px}
-        #sta .sta_in li:nth-child(1) {background: url('../img/portfolio/brmarket.png')no-repeat;height: 50px}
-        #sta .sta_in li:nth-child(2) {background: url('../img/portfolio/brtaste.png')no-repeat;height: 50px}
+        #sta .sta_in li:nth-child(1) {background: url('../portfolio/brmarket.png')no-repeat;height: 50px}
+        #sta .sta_in li:nth-child(2) {background: url('../portfolio/brtaste.png')no-repeat;height: 50px}
         #sta .sta_in a {color: #fff;font-size: 22px;text-align: center}
         
         
